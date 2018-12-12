@@ -6,6 +6,24 @@ http://tezos.gitlab.io/mainnet/introduction/howtoget.html
 
 # Scripts
 
+# All
+```
+sudo apt install -y rsync git m4 build-essential patch unzip bubblewrap wget
+wget https://github.com/ocaml/opam/releases/download/2.0.1/opam-2.0.1-x86_64-linux
+sudo cp opam-2.0.1-x86_64-linux /usr/local/bin/opam
+sudo chmod a+x /usr/local/bin/opam
+git clone https://gitlab.com/tezos/tezos.git
+cd tezos
+git checkout alphanet
+opam init --bare
+make build-deps
+eval $(opam env)
+make
+export PATH=~/tezos:$PATH
+source ./src/bin_client/bash-completion.sh
+export TEZOS_CLIENT_UNSAFE_DISABLE_DISCLAIMER=Y
+```
+
 ## Step 1 — Update and Install Dependencies
 ```
 sudo apt-get update
