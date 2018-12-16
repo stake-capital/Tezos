@@ -6,7 +6,7 @@
 ./tezos-node run --rpc-addr 127.0.0.1
 
 ### Get Balance
-./tezos-client get balance for stakeCapita
+./tezos-client get balance for stakeCapital
 
 ### Receipt for a transaction
 ./tezos-client rpc get /chains/main/blocks/head/operations
