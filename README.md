@@ -13,6 +13,8 @@ Full: https://api.github.com/repos/Phlogi/tezos-snapshots/releases/latest
 # RPC's endpoints
 `curl https://teznode.letzbake.com/chains/main/blocks/587776`
 
+bunch of endpoints: https://rpc.tulip.tools/#/
+
 # Scripts
 
 # All
