@@ -10,6 +10,8 @@ Archive: https://snapshots.tulip.tools/#/
 
 Full: https://api.github.com/repos/Phlogi/tezos-snapshots/releases/latest
 
+Also: https://tezosshots.com/
+
 # RPC's endpoints
 `curl https://teznode.letzbake.com/chains/main/blocks/587776`
 
