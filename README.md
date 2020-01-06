@@ -4,6 +4,10 @@ All information about Tezos
 # Installation guide
 http://tezos.gitlab.io/mainnet/introduction/howtoget.html
 
+# Explorers
+
+https://mininax.cryptonomic.tech/mainnet
+
 # Snapshots
 
 Archive: https://snapshots.tulip.tools/#/
