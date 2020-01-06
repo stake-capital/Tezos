@@ -4,6 +4,11 @@ All information about Tezos
 # Installation guide
 http://tezos.gitlab.io/mainnet/introduction/howtoget.html
 
+# Snapshots
+
+Archive: https://snapshots.tulip.tools/#/
+Full: https://api.github.com/repos/Phlogi/tezos-snapshots/releases/latest
+
 # Scripts
 
 # All
