@@ -7,7 +7,11 @@ http://tezos.gitlab.io/mainnet/introduction/howtoget.html
 # Snapshots
 
 Archive: https://snapshots.tulip.tools/#/
+
 Full: https://api.github.com/repos/Phlogi/tezos-snapshots/releases/latest
+
+# RPC's endpoints
+`curl https://teznode.letzbake.com/chains/main/blocks/587776`
 
 # Scripts
 
